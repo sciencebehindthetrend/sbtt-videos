@@ -43,6 +43,8 @@ bold captions (key words highlighted with *stars*), and a synthetic English voic
    - TikTok `6b0845298541f09ecbb067ac` — metadata.tiktok.isAiGenerated=true
    - YouTube `6b0845068541f09ecbb0665d` — type short, categoryId "28", madeForKids false, isAiGenerated true, title ends with #shorts
    - Instagram `6b0844d28541f09ecbb06495` — type reel, shouldShareToFeed true, isAiGenerated true
-   Create the three posts as DRAFTS (saveToDraft: true) — the owner approves publication himself.
+   Schedule the three posts for 20:00 Europe/Paris the same day (mode customScheduled, dueAt with the Paris offset;
+   the owner asked for this on 2026-11-27). If scheduling a post is refused or fails, save it as a draft (saveToDraft: true)
+   and tell the owner which one and why. Never use shareNow.
 8. Append the episode (date, trend, topic, video file name) to pipeline/episodes_log.md, commit and push.
-9. Notify the owner (in French): topic, why that trend, the captions, and that 3 drafts wait in Buffer for his approval.
+9. Notify the owner (in French): topic, why that trend, the captions, and which posts are scheduled for 20:00 Paris (or left as drafts, and why).
